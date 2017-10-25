@@ -1,0 +1,16 @@
+.page-enter,
+.page-leave-to {
+    transform: translateY(20px);
+    opacity: 0;
+    h1 {
+        color: #b84ba1;
+    }
+}
+
+
+
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.3s;
+}
